@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Get Started | Vairrien AI</title>
+
+    <!-- Your existing Vairrien stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="auth-page">
+
+        <section class="auth-container">
+
+            <!-- Vairrien Logo / Brand -->
+     
+
+
+            <!-- Page Heading -->
+            <header class="auth-header">
+
+                <h1>
+                    Create your Vairrien account
+                </h1>
+
+                <p>
+                    Get started with Vairrien AI.
+                </p>
+
+            </header>
+
+
+            <!-- Authentication Card -->
+            <section class="auth-card">
+
+                <!-- Google Signup -->
+                <button
+                    type="button"
+                    id="google-signup"
+                    class="auth-google-button"
+                >
+
+                    <span class="google-icon" aria-hidden="true">
+                        G
+                    </span>
+
+                    <span>
+                        Continue with Google
+                    </span>
+
+                </button>
+
+
+                <!-- Divider -->
+                <div class="auth-divider">
+
+                    <span></span>
+
+                    <p>or</p>
+
+                    <span></span>
+
+                </div>
+
+
+                <!-- Email Registration -->
+                <form
+                    id="signup-form"
+                    class="auth-form"
+                    novalidate
+                >
+
+                    <!-- Full Name -->
+                    <div class="form-group">
+
+                        <label for="full-name">
+                            Full name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="full_name"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Password -->
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Create a password"
+                            autocomplete="new-password"
+                            minlength="8"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Confirm Password -->
+                    <div class="form-group">
+
+                        <label for="confirm-password">
+                            Confirm password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="confirm-password"
+                            name="confirm_password"
+                            placeholder="Enter your password again"
+                            autocomplete="new-password"
+                            minlength="8"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Terms -->
+                    <div class="auth-terms">
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                id="terms"
+                                name="terms"
+                                required
+                            >
+
+                            <span>
+                                I agree to the Vairrien
+                                Terms of Service and
+                                Privacy Policy.
+                            </span>
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- Submit -->
+                    <button
+                        type="submit"
+                        id="signup-button"
+                        class="auth-submit"
+                    >
+                        Create account
+                    </button>
+
+
+                    <!-- Status / Error Message -->
+                    <div
+                        id="auth-message"
+                        class="auth-message"
+                        role="alert"
+                        aria-live="polite"
+                    ></div>
+
+                </form>
+
+
+                <!-- Existing Account -->
+                <div class="auth-login-prompt">
+
+                    <span>
+                        Already have an account?
+                    </span>
+
+                    <a href="login.html">
+                        Log in
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- Back to Landing Page -->
+            <div class="auth-back">
+
+                <a href="index.html">
+                    ← Back to Vairrien
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Your existing JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="auth.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

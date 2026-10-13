@@ -1,0 +1,7 @@
+C:\Users\P C\Desktop\Vairrien AI Project\Dev Folder\AI\vairrien_ai\api\server.py:408: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Get Started | Vairrien</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-page get-started-page">
+
+    <!-- =========================================================
+         NAVIGATION
+    ========================================================== -->
+
+    <header class="navbar">
+
+        <a href="index.html" class="brand" aria-label="Vairrien home">
+
+            <span class="brand-mark" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+
+            <span class="brand-name">vairrien</span>
+
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+
+            <a href="Platform-Page.html">Platform</a>
+            <a href="Solutions.html">Solutions</a>
+            <a href="resources.html">Resources</a>
+            <a href="Price.html">Pricing</a>
+            <a href="about.html">About</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <a href="login.html" class="login-link">
+                Log in
+            </a>
+
+            <a href="get-started.html" class="button button-small">
+                Get started
+            </a>
+
+        </div>
+
+        <button
+            class="mobile-menu-button"
+            type="button"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="auth-main">
+
+        <section class="auth-section">
+
+            <div class="auth-container">
+
+                <div class="auth-card">
+
+                    <div class="auth-header">
+
+                        <span class="auth-eyebrow">
+                            GET STARTED
+                        </span>
+
+                        <h1>
+                            Start working with Vairrien.
+                        </h1>
+
+                        <p>
+                            Create your account and bring AI,
+                            automation, and intelligent tools into
+                            one focused workspace.
+                        </p>
+
+                    </div>
+
+
+                    <!-- GOOGLE -->
+
+                    <button
+                    type="button"
+                    class="auth-social-button"
+                    id="googleSignup"
+                >
+                    <span class="auth-google-icon">G</span>
+                    <span>Continue with Google</span>
+                </button>
+
+
+                    <!-- DIVIDER -->
+
+                    <div class="auth-divider">
+                        <span>or continue with email</span>
+                    </div>
+
+
+                    <!-- SIGN UP FORM -->
+
+                    <form class="auth-form" id="signupForm">
+
+                        <div class="auth-field">
+
+                            <label for="signupName">
+                                Full name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="signupName"
+                                name="name"
+                                placeholder="Your name"
+                                autocomplete="name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="auth-field">
+
+                            <label for="signupEmail">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="signupEmail"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="auth-field">
+
+                            <label for="signupPassword">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                id="signupPassword"
+                                name="password"
+                                placeholder="Create a password"
+                                autocomplete="new-password"
+                                required
+                                minlength="8"
+                            >
+
+                            <span class="auth-field-hint">
+                                Use at least 8 characters.
+                            </span>
+
+                        </div>
+
+
+                                        <button
+                        type="submit"
+                        class="auth-submit"
+                    >
+                        Create account
+                    </button>
+
+                    <p
+                        id="auth-message"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+
+                    </form>
+
+
+                    <!-- LOGIN SWITCH -->
+
+                    <div class="auth-account-switch">
+
+                        <span>
+                            Already have an account?
+                        </span>
+
+                        <a href="login.html">
+                            Log in
+                        </a>
+
+                    </div>
+
+
+                    <!-- LEGAL -->
+
+                    <p class="auth-legal">
+                        By creating an account, you agree to
+                        our
+                        <a href="terms.html">Terms</a>
+                        and
+                        <a href="privacy.html">Privacy Policy</a>.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer class="footer" id="about">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="brand">
+
+                        <span class="brand-mark">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+
+                        <span class="brand-name">
+                            vairrien
+                        </span>
+
+                    </a>
+
+                    <p>
+                        Intelligent tools for people
+                        <br>
+                        building what comes next.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <span>Product</span>
+
+                    <a href="#platform">
+                        Platform
+                    </a>
+
+                    <a href="#solutions">
+                        Solutions
+                    </a>
+
+                    <a href="#pricing">
+                        Pricing
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <span>Resources</span>
+
+                    <a href="#resources">
+                        Documentation
+                    </a>
+
+                    <a href="#resources">
+                        Guides
+                    </a>
+
+                    <a href="#resources">
+                        Support
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <span>Company</span>
+
+                    <a href="#about">
+                        About
+                    </a>
+
+                    <a href="#about">
+                        Contact
+                    </a>
+
+                    <a href="#about">
+                        Careers
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © 2026 Vairrien AI. All rights reserved.
+                </span>
+
+                <div>
+
+                    <a href="#privacy">
+                        Privacy
+                    </a>
+
+                    <a href="#terms">
+                        Terms
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>           Y7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="auth.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html> 

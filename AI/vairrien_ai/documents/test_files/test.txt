@@ -1,0 +1,1 @@
+Vairrien is an AI assistant designed to understand users, remember important information, research the web, and work with documents.
